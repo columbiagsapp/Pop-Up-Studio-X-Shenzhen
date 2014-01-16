@@ -103,7 +103,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: Droid Serif, Georgia, serif;
+  font-family: 'DIN Next W01 Regular', Droid Serif, Georgia, serif;
   font-size: 1.8rem;
   line-height: 1.5em;
   color: #3A4145;
@@ -124,7 +124,7 @@ h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
-  font-family: 'Droid Sans', Arial, sans-serif;
+  font-family: 'DIN Next W02 Bold', 'Droid Sans', Arial, sans-serif;
   font-weight: 400;
   color: #566160; }
 
@@ -379,7 +379,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   z-index: 1;
   width: 100%;
   top: 0;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'DIN Next W02 Bold', 'Open Sans', sans-serif; }
 
 .header-left {
   float: left;
@@ -636,7 +636,7 @@ audio.audio-rain {
   z-index: 0;
   width: 50%;
   bottom: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DIN Next W02 Bold', 'Open Sans', sans-serif;
   color: #ffffff; }
 
 .cat-nav-left {
@@ -655,7 +655,7 @@ audio.audio-rain {
 
 .cat-nav-posts {
   text-align: center;
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: 'DIN Next W02 Bold', Montserrat, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
   height: 44px;
@@ -935,7 +935,7 @@ audio.audio-rain {
 .menu h2,
 .menu h3,
 .menu h4 {
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: 'DIN Next W02 Bold', Montserrat, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -2px; }
@@ -1037,7 +1037,7 @@ audio.audio-rain {
   font-size: 1.8rem;
   line-height: 1.5em;
   font-weight: 300;
-  font-family: 'Droid Serif', Georgia, serif;
+  font-family: 'DIN Next W01 Regular', 'Droid Serif', Georgia, serif;
   letter-spacing: 0; }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -1097,7 +1097,7 @@ audio.audio-rain {
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: 'DIN Next W02 Bold', Montserrat, Arial, sans-serif;
   text-align: center;
   letter-spacing: -4px;
   opacity: 0.95;
@@ -1200,10 +1200,16 @@ audio.audio-rain {
   padding: 60px 0; }
 
 /* Keep large images within the bounds of the post-width */
-.post-content img {
+.post-content img,
+.post-content iframe,
+.post-content object {
   display: block;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0; }
+
+.post-content .panels img {
+  margin-bottom:30px;
+}
 
 .post-template .table-of-contents {
   display: none; }
@@ -1300,7 +1306,7 @@ audio.audio-rain {
 /* The main wrapper for our pagination links */
 .pagination {
   position: relative;
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: 'DIN Next W02 Bold', Montserrat, Arial, sans-serif;
   font-size: 1.2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -1366,7 +1372,7 @@ audio.audio-rain {
   margin: 8rem 0 0 0;
   padding: 4rem 0;
   border-top: #EBF2F6 1px solid;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DIN Next W02 Bold', 'Open Sans', sans-serif;
   font-size: 1.3rem;
   line-height: 1.7em;
   color: #BBC7CC;

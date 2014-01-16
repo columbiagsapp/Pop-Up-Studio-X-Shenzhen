@@ -32,6 +32,8 @@
 	}
 
 	function isPossibleToCreateAudioElement(){
+		
+		
 		if( typeof( $('.music-toggle').attr('data-mp3') ) != 'undefined' ){
 			return true;
 		}
@@ -40,6 +42,7 @@
 			return true;
 		}
 		return false;
+		
 	}
 	
 	function createAudioElement(){

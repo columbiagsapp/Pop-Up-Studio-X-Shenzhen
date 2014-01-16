@@ -1259,11 +1259,11 @@ audio.audio-rain    {
     padding: 60px 0;
 }
 
-/* Keep large images within the bounds of the post-width */
-.post-content img {
+/* Keep large images, iframes and objects within the bounds of the post-width */
+.post-content img, .post-content iframe, .post-content object {
     display: block;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .post-template .table-of-contents  {
