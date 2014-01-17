@@ -1315,7 +1315,8 @@ audio.audio-rain {
   text-align: center;
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 0 11.14% 0 11.14%; }
+  padding: 0 11.14% 0 11.14%; 
+  display:none; }
 
 .pagination a {
   color: #ffffff; }

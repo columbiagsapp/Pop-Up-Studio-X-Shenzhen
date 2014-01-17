@@ -57,14 +57,12 @@
                 -->
             </div>
         {{/post}}
-        <h4 class="menu-title table-of-contents">Table of Contents</h4>
         <ul class="clearfix">    
             {{#foreach posts}}
             <li>
                 <h3>
                     <a href="{{url}}">{{{title}}}</a>
                 </h3>
-                <div class="post-meta-date">{{{date}}}</div>
             </li>
             {{/foreach}}
         </ul>
