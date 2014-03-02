@@ -1,0 +1,15 @@
+{
+    "name": "Pop-Up Studio-X Shenzhen",
+    "url": "popup.studio-x.org",
+    "version": "1.0",
+    "thumbnail": "screenshot.png",
+    "contributors": [
+        {
+            "name": "Troy Conrad Therrien",
+            "username": "troyth",
+            "role": "lead"
+        }
+    ],
+    "dependencies": [
+    ]
+}
